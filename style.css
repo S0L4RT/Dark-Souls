@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url("https://static0.gamerantimages.com/wordpress/wp-content/uploads/2020/10/Dark-Souls-Dark-Sign.jpg");
+    font-family: 'Changa', sans-serif;
+}
+
+.container {
+    line-height: 150%;
+}
+
+/* Cabeçalho */
+.header {
+    background-image:-webkit-linear-gradient(45deg, black, rgb(58, 58, 58), gray, white);
+    color: white;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+/* Conteúdo principal */
+.content {
+    padding: 50px;
+    font-size:large;
+    color: white;
+}
+
+/* Lista */
+ul, ul a {
+    list-style-type: none;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Subtítulo */
+h2 {
+    font-size:xx-large;
+}
+
+/* Título principal */
+h1 {
+    font-size: 300%;
+}
+
+/* Rodapé */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 55px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
